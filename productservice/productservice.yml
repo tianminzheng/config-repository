@@ -1,0 +1,9 @@
+spring:
+  jpa:
+    database: MYSQL
+  datasource:
+    platform: mysql
+    url: jdbc:mysql://127.0.0.1:3306/microservice_product
+    username: root
+    password: "{cipher}faa75c427107905cca506a53e609017ff1e3172980b3b429a1607299a640dcb7"
+    driver-class-name: com.mysql.jdbc.Driver
